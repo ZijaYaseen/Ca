@@ -1,1 +1,1 @@
-Calculator using HTML5 , CSS And Typescript.
+# Calculator using HTML5 , CSS And Typescript.
