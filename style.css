@@ -49,5 +49,51 @@ form .display input {
 }
 
 form input.equal {
-    width: 145px
+    width: 145px;
+    color:#33ffd8;
+}
+
+form input.operator{
+    color:#33ffd8;
+
+}
+
+/* Media Queries for Tablets */
+@media (max-width: 768px) {
+    .calculator form input {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+        margin: 4px;
+    }
+
+    form .display input {
+        font-size: 35px;
+    }
+
+    form input.equal {
+        width: 120px;
+    }
+}
+
+/* Media Queries for Mobile Phones */
+@media (max-width: 480px) {
+    .calculator {
+        padding: 10px;
+    }
+
+    .calculator form input {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        margin: 3px;
+    }
+
+    form .display input {
+        font-size: 25px;
+    }
+
+    form input.equal {
+        width: 100px;
+    }
 }
